@@ -3,9 +3,13 @@
     padding: 0px;
     /* box-sizing: border-box; */
 }
+button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
 body{
-    background-color: #F5FBFF;
-    
+    background-color:#F5FBFF;
+    /*  */
 }
 
 /* .logo{
@@ -55,6 +59,7 @@ nav h1{
     border: none;
     border-radius: 5px;
     font-family: "Raleway", sans-serif;
+    
 }
 
 nav ul li{
@@ -100,7 +105,8 @@ nav li a{
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
-    margin: 116px 0px 116px 450px;
+    margin: 116px 159px 116px 140px;
+    /* margin: 116px 0px 116px 450px; */
     align-items: center;
     
    
@@ -152,19 +158,22 @@ nav li a{
 .Productive-Users-Section{
     background-color: rgb(78, 71, 250, 10%);
      justify-content: space-between;
-    max-width: 1040px;
+    max-width: 1140px;
     max-height: 306px;
-    margin: 116px 0px 116px 450px;
+    margin: 116px 159px 0px 140px;
+    /* margin: 116px 0px 116px 450px; */
     align-items: center;
     border-radius: 24px;
-    padding: 80px 50px;
+    padding: 80px 50px 40px 50px;
+    /* padding: 80px 50px; */
     
 }
 .data-with-subtitle{
 display: flex;
 /* flex-wrap: wrap; */
 justify-content: space-around;
-padding: 40px 142px 50px 142px;
+padding: 0px 142px 50px 142px;
+/* padding: 40px 142px 50px 142px; */
 }
 
 .centerd-title{
@@ -198,6 +207,53 @@ padding: 40px 142px 50px 142px;
     font-size: 20px;
     opacity: 20%;
 }
+
+/* extra section */
+
+.section-exta{
+    max-width: 1140px;
+    max-height: 697px;
+    padding: 60px 0px 60px 71px;
+     margin: 116px 0px 116px 450px;
+    /* border-radius: 24px; */
+    border-radius: 14px;
+    background-color: white;
+    text-align: center;
+}
+.exta-body{
+    text-align: center;
+}
+.exta-h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.exta-p{
+margin-bottom: 10px;
+opacity: 50%;
+}
+.exta-button{
+    /* margin-top: 10px; */
+    width: 195px;
+    height: 48px;
+    background-color:#4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.exta-image{
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+
+}
+
 
 /* Let’s Get In Touch Section */
 
@@ -271,20 +327,28 @@ padding: 40px 142px 50px 142px;
 /* footer section */
 
 .footer-main{
-    max-width: 1440px;
-    max-height: 428px;
-    background-color: #ffffff;
+    text-align: center;
+    
+    
+    /* max-height: 428px; */
+    background-color: white;
     /* border-style: solid ; */
- margin: 0 auto;
+ margin: 0 ;
+ padding:  80px 0;
+ 
+
    /* border-style: solid; */
    
 }
 .footer-section{
-   max-width: 532PX;
-   max-height:221px ;
+    max-width: 0 auto;
+  
+  /
    /* margin: 104px 455px 103px 454px; */
-   padding: 104px 455px 103px 454px;
-
+   /* padding: 104px 455px 103px 454px; */
+margin: 0 auto;
+padding: 0 20px;
+text-align: center;
 }
 
 .footer-logo{
@@ -302,9 +366,15 @@ padding: 40px 142px 50px 142px;
     color: #8987A1;
 }
 .footer-links{
+    padding-left: 780px;
+    padding-right: 780px;
     padding-top: 20px;
+    flex-wrap: wrap;
      display: flex;
-    justify-content: space-around;
-    font-size: 16;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* align-content: center; */
+    text-align: center;
+    font-size: 16px;
     color: #8987A1;
 }
