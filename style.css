@@ -91,7 +91,7 @@ nav li a{
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
-    margin: 116px 0px 116px 400px;
+    margin: 116px 0px 116px 450px;
     align-items: center;
     
    
@@ -135,4 +135,53 @@ nav li a{
     border: none;
     margin-top: 28px;
     cursor: pointer;
+}
+/* productive user section */
+
+.Productive-Users-Section{
+    background-color: rgb(78, 71, 250, 10%);
+     justify-content: space-between;
+    max-width: 1040px;
+    max-height: 306px;
+    margin: 116px 0px 116px 450px;
+    align-items: center;
+    border-radius: 24px;
+    padding: 80px 50px;
+    
+}
+.data-with-subtitle{
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: space-around;
+padding: 40px 142px 50px 142px;
+}
+
+.centerd-title{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    padding:  0px 142px 40px 142px;
+    
+}
+.fifty-k{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+
+}
+.two-m{
+    font-weight: bold;
+    font-size: 80px;
+     color: #4E47FF;
+
+}
+.ninty-five{
+    font-weight: bold;
+    font-size: 80px;
+     color: #4E47FF;
+
+}
+.subtitle-1{
+    font-size: 20px;
+    opacity: 20%;
 }
