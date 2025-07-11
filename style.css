@@ -24,7 +24,7 @@ body{
     background-image: url("./Assets/Hero-bg.png");
     background-repeat: no-repeat;
     max-height: 698px;
-    max-width: 100%;
+    max-width: 1600px;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -369,6 +369,7 @@ opacity: 50%;
     height: 290px;
     padding: 71px 0px;
     margin-top: 71px;
+
 }
 
 
@@ -409,10 +410,10 @@ opacity: 50%;
 /* footer section */
 
 .footer-main{
-    max-width: 1440px;
+    max-width: 1600px;
     max-height: 428px;
     background-color: #ffffff;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
     
    /* border-style: solid; */
