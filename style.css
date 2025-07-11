@@ -21,7 +21,7 @@ body{
 } */
 
 .header{
-    background-image: url("./Assets/Hero-bg.png");
+    background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
     max-height: 698px;
     max-width: 1600px;
@@ -460,6 +460,7 @@ footer span{
 footer h5{
     text-align: center;
    padding-top: 0;
+   padding-right: 110px;
     font-size: 16;
     color: #8987A1;
    
