@@ -354,7 +354,7 @@ opacity: 50%;
     /* border-style: solid; */
 }
 
-.section-title{
+ .section-title{
     font-family: "Raleway", sans-serif;
     font-size: 80px;
     font-weight: bold;
@@ -406,21 +406,8 @@ opacity: 50%;
 
 .hov:hover{
     background-color: darkblue;
-}
+} 
 
-
-/* footer section */
-
-.footer-main{
-    max-width: 1600px;
-    max-height: 428px;
-    background-color: #ffffff;
-    /* margin: 0 auto; */
-    
-    
-   /* border-style: solid; */
-   
-}
 .footer-section{
     max-width: 532PX;
    max-height:221px ;
